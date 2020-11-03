@@ -41,7 +41,7 @@ int main() {
             p[i].second=x;
         }
         sort(p.rbegin(),p.rend());
-      
+        
         ll sum = 0;
         for(int i=0;i<n;i++){
             if(sum>p[i].first){continue;}
